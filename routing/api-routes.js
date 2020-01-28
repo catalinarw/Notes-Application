@@ -1,4 +1,4 @@
-var notesData = require ("../data/note-data.js");
+var notesData = require("../data/note-data.js");
 
 module.exports = function (app) {
     app.get("/api/notes", function (req, res) {
